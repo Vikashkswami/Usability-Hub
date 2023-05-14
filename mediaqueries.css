@@ -1,0 +1,122 @@
+@media screen and (max-width:991px) {
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-links{
+        display: none;
+        position: absolute;
+        background-color: white;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.6 ease-in-out;
+    }
+
+    .active{
+        display: block;
+        left: 0;
+    }
+    .main-nav{
+        overflow: initial;
+        
+    }
+
+    .nav-links > ul{
+        flex-direction: column;
+    }
+
+    .cta-section{
+        min-height: 230px;
+        height: auto;
+    }
+
+    footer{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .primary-button{
+        width: 100%;
+    }
+
+    .header-section{
+        flex-direction: column-reverse;
+    }
+
+    .header-left{
+        max-width: 100vw;
+    }
+    
+    .header-left{
+        text-align: center;
+    }
+
+    .features-card{
+        width: 46%;
+        
+    }
+
+    .big-feature-container{
+        flex-direction: column;
+        
+    }
+    .big-feature-container2{
+        flex-direction: column-reverse;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .link-column{
+        align-items: center;
+    }
+
+    .subfooter{
+        flex-wrap: wrap;
+    }
+
+    .example-card{
+        width: calc(50% - 10px);
+        margin: 10px 5px;
+        
+}
+
+@media screen and (max-width:479px){
+    :root{
+        --padding-inline-section:10px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+      
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .features-card{
+        width: 100%;
+    }
+
+    .example-card{
+        width: 100%;
+        height: 50%;
+        margin: 10px 10px;
+    }
+    
+}
+}
