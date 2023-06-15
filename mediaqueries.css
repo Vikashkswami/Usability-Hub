@@ -112,11 +112,22 @@
         width: 100%;
     }
 
+    .cta-section{
+
+        align-items: center;
+    }
+
     .example-card{
         width: 100%;
         height: 50%;
         margin: 10px 10px;
     }
-    
+    .subfooter-container{
+        flex-direction: column;
+        gap: 10px;
+    }   
+    .Advance-info{
+        flex-direction: column;
+    }
 }
 }
