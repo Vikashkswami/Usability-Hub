@@ -128,11 +128,6 @@ ul{
     position: relative;
 }
 
-.nav-links{
-    flex-basis: 730px;
-    
-    
-}
 
 .nav-links ul{
     justify-content: end;
@@ -326,8 +321,14 @@ footer{
     padding: var(--padding-inline-section);
 }
 
-.Subfooter-container{
-    justify-content: center;
+.subfooter-container{
+    justify-content:space-evenly;
+}
+.Advance-info{
+    gap: 20px;
+}
+
+.socialmedia{
     gap: 20px;
 }
 

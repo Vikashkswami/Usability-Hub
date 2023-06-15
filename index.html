@@ -12,9 +12,9 @@
 
 <body>
     <!-- Top Banner -->
-    <div class="top-banner"  id="Usability">
+    <div class="top-banner" id="Usability">
         <div class="container">
-            <div class="small-bold-text banner-text " >New to Usability Hub:Open and Closed card sorting</div>
+            <div class="small-bold-text banner-text ">New to Usability Hub:Open and Closed card sorting</div>
         </div>
     </div>
     <!-- Nav Bar -->
@@ -25,21 +25,20 @@
             </a>
             <div class="nav-links" id="nav-links">
                 <ul class="flex">
-                    <li><a href="#" class="hover-link">Products</a></li>
+                    <li><a href="#" class="hover-link">Products  <i class="fa-solid fa-chevron-down fa-xs"></i></a></li>
                     <li><a href="#" class="hover-link">Customer</a></li>
                     <li><a href="#" class="hover-link">pricing</a></li>
-                    <li><a href="#" class="hover-link">Resources</a></li>
+                    <li><a href="#" class="hover-link">Resources  <i class="fa-solid fa-chevron-down fa-xs"></i></a></li>
                     <li><a href="#" class="hover-link secondary-button">Singn in</a></li>
                     <li><a href="#" class="hover-link primary-button">Singn up</a></li>
                 </ul>
             </div>
-           
             <a href="#" class="nav-toggle hover-link" id="nav-toggle">
                 <i class="fa-solid fa-bars" id="navshow"></i>
             </a>
         </div>
     </nav>
-    
+
     <!-- Header -->
     <header>
         <div class="container header-section flex">
@@ -238,28 +237,32 @@
     </footer>
     <!-- Subfooter -->
     <div class="subfooter">
-        <div class="container">
-            <div class="Subfooter-container flex">
+        <div class="container subfooter-container flex">
+            <div class="Advance-info flex">
                 <a href="#" class="hover-link">Privacy police</a>
                 <a href="#" class="hover-link">Terms & conditions</a>
                 <a href="#" class="hover-link">Security information</a>
+            </div>
+            <div class="socialmedia flex">
                 <a href="#" class="hover-link"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#" class="hover-link"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#" class="hover-link"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#" class="hover-link"><i class="fa-brands fa-youtube"></i></a>
             </div>
+
         </div>
 
     </div>
     <script src="https://kit.fontawesome.com/08e4426ee9.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <script>
-      const toggleButton  = document.getElementById('nav-toggle');
-      const navLinks =  document.getElementById('nav-links');
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
 
-      toggleButton.addEventListener("click", () =>{
-        navLinks.classList.toggle("active");
-      })
+        toggleButton.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        })
     </script>
 </body>
 
