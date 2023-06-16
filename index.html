@@ -8,13 +8,16 @@
     <title>Project 2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Top Banner -->
     <div class="top-banner" id="Usability">
-        <div class="container">
-            <div class="small-bold-text banner-text ">New to Usability Hub:Open and Closed card sorting</div>
+        <div class="container"> 
+            <div class="small-bold-text banner-text "><a href="#">Figma prototype testing just got a whole lot better! Read more →</a></div>
+            <!-- New to Usability Hub:Open and Closed card sorting -->
         </div>
     </div>
     <!-- Nav Bar -->
@@ -24,11 +27,37 @@
                 <img src="assets/asset 1.png" alt="company-logo">
             </a>
             <div class="nav-links" id="nav-links">
-                <ul class="flex">
-                    <li><a href="#" class="hover-link">Products  <i class="fa-solid fa-chevron-down fa-xs"></i></a></li>
+                <ul class="flex list1">
+                    <li id="remove"><a href="#" class="hover-link" id="product">Products <i
+                                class="fa-solid fa-chevron-down fa-xs"></i></a>
+                        <!-- Product Menu -->
+                        <div class="product-menu2">
+                            <div class="product-menu ">
+                                <a href="#">Overview</a>
+                                <a href="#">Card sorting</a>
+                                <a href="#">Prototype testing</a>
+                                <a href="#">Design surveys</a>
+                                <a href="#">Five second tests</a>
+                                <a href="#">Preference tests</a>
+                                <a href="#">First click tests</a>
+                                <a href="#">Research panel</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="#" class="hover-link">Customer</a></li>
                     <li><a href="#" class="hover-link">pricing</a></li>
-                    <li><a href="#" class="hover-link">Resources  <i class="fa-solid fa-chevron-down fa-xs"></i></a></li>
+                    <li><a href="#" class="hover-link" id="resource">Resources <i
+                                class="fa-solid fa-chevron-down fa-xs"></i></a>
+                        <div class="resource-menu2">
+                            <div class="resources-menu">
+                                <a href="#">Examples</a>
+                                <a href="#">Testing guides</a>
+                                <a href="#">Panel calculator</a>
+                                <a href="#">Help center</a>
+                                <a href="#">Blog</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="#" class="hover-link secondary-button">Singn in</a></li>
                     <li><a href="#" class="hover-link primary-button">Singn up</a></li>
                 </ul>
@@ -38,7 +67,6 @@
             </a>
         </div>
     </nav>
-
     <!-- Header -->
     <header>
         <div class="container header-section flex">
@@ -253,6 +281,8 @@
         </div>
 
     </div>
+
+    </div>
     <script src="https://kit.fontawesome.com/08e4426ee9.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.js"
         integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
@@ -263,6 +293,7 @@
         toggleButton.addEventListener("click", () => {
             navLinks.classList.toggle("active");
         })
+
     </script>
 </body>
 
