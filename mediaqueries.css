@@ -59,6 +59,7 @@
 
     .primary-button {
         width: 100%;
+        text-align: center;
     }
 
     .header-section {
@@ -118,6 +119,7 @@
 
         h2 {
             font-size: 1.5rem;
+            text-align: center;
         }
 
         h3 {
@@ -126,6 +128,7 @@
 
         p {
             font-size: 1rem;
+            text-align: center;
         }
 
         .features-card {
