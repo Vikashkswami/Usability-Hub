@@ -20,6 +20,10 @@
         left: 0;
     }
 
+    .tester {
+        display: none;
+    }
+
     .main-nav {
         overflow: initial;
 
@@ -47,7 +51,7 @@
     }
 
     .resources-menu {
-        text-align:start;
+        text-align: start;
         top: 54%;
         left: 0%;
         width: 100%;
@@ -124,6 +128,7 @@
 
         h3 {
             font-size: 1.5rem;
+            text-align: center;
         }
 
         p {
